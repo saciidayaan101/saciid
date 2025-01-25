@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normlizing.css">
+
+
+  <style>
+    @media (max-width:500px ){
+      .j{
+        display: block;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">Sa'id</div>
+      <div class="menu-icon" onclick="toggleMenu()">
+        &#9776;
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="contact-btn">Contact Me</a>
+    </div>
+  
+    <style>
+      header {
+        background: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+  
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+  
+      .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+  
+      .menu-icon {
+        display: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+      }
+  
+      nav {
+        flex-grow: 1;
+      }
+  
+      nav ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-end;
+      }
+  
+      nav ul li {
+        margin-left: 20px;
+      }
+  
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+  
+      .contact-btn {
+        background: orange;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+  
+      @media (max-width: 768px) {
+        .menu-icon {
+          display: block;
+        }
+  
+        nav {
+          display: none;
+        }
+  
+        nav.active {
+          display: block;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background: #333;
+        }
+  
+        nav ul {
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        nav ul li {
+          margin: 10px 0;
+        }
+      }
+    </style>
+  
+  
+  </header>
+  
+
+  <!-- Introduction Section -->
+  <section class="intro">
+    <div class="container">
+      <div class="text">
+        <h1>Hi, I'm <span>Sa'id</span></h1>
+        <p>A Frontend Developer</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorem eum laudantium.</p>
+        <div class="buttons">
+          <a style="background-color: white; color: black;" href="#hire" class="btn primary">Hire Me</a>
+          <a href="#experience" class="btn secondary">Experience</a>
+          <br>
+  
+          <br>
+          <br>
+          <br>
+          <br>
+          <b>
+            Lorem ipsum dolor sit amet consectetur adipisicing <br>elit. Culpa quisquam, deleniti pariatur dolorem <br>nulla rem debitis optio earum recusandae <br>cupiditate tenetur nostrum <br>cumquebr ratione repudiandae <voluptate class="br"></voluptate> Animi soluta libero necessitatibus.
+          </b>
+        </div>
+      </div>
+  
+      <div class="image">
+        <img style="margin-top: -200px;" src="./caan/IMG-20241031-WA0011.jpg" alt="Profile Picture">
+      </div>
+    </div>
+  
+    <style>
+      .intro {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+      }
+  
+      .text {
+        flex: 1 1 45%;
+        min-width: 300px;
+      }
+  
+      .buttons {
+        margin-top: 20px;
+      }
+  
+      .buttons .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+  
+      .image {
+        flex: 1 1 45%;
+        min-width: 300px;
+        text-align: center;
+        margin-top: 200px;
+      }
+  
+      .image img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      @media (max-width: 768px) {
+        .intro {
+          flex-direction: column;
+          text-align: center;
+        }
+  
+        .text, .image {
+          flex: 1 1 100%;
+        }
+  
+        .text {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </section>
+
+</head>
+<body>
+<br>
+<br>
+ 
+  <!-- Introduction Section -->
+  <div class="j" style="display: flex; margin-left: auto; margin-right: auto; gap: 70px; flex-wrap: wrap; justify-content: center;">
+    <div style="width: 300px; height: 350px; background-color: wheat; text-align: center; color: black; margin: 10px;">
+      <h2 style="color: orange;">basic</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim atque at iure? Blanditiis, delectus. Quam totam autem odit nostrum.</p>
+      <br>
+      <ol style="margin-left: 0;">
+        <h2>skills</h2>
+        <li>Html</li>
+        <li>css</li>
+        <li>java iskribt</li>
+      </ol>
+      <a href="">read more</a>
+    </div> 
+    <div style="width: 300px; height: 350px; background-color: wheat; text-align: center; color: black; margin: 10px;">
+      <h2 style="color: orange;">basic</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim atque at iure? Blanditiis, delectus. Quam totam autem odit nostrum.</p>
+      <br>
+      <ol style="margin-left: 0;">
+        <h2>skills</h2>
+        <li>Html</li>
+        <li>css</li>
+        <li>java iskribt</li>
+      </ol>
+      <a href="">read more</a>
+    </div>
+    <div style="width: 300px; height: 350px; background-color: wheat; text-align: center; color: black; margin: 10px;">
+      <h2 style="color: orange;">basic</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error enim atque at iure? Blanditiis, delectus. Quam totam autem odit nostrum.</p>
+      <br>
+      <ol style="margin-left: 0;">
+        <h2>skills</h2>
+        <li>Html</li>
+        <li>css</li>
+        <li>java iskribt</li>
+      </ol>
+      <a href="">read more</a>
+    </div>
+  
+    <style>
+      .j {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+  
+      .j div {
+        width: 300px;
+        height: 350px;
+        background-color: wheat;
+        text-align: center;
+        color: black;
+        margin: 10px;
+        box-sizing: border-box;
+      }
+  
+      .j div h2 {
+        color: orange;
+      }
+  
+      .j div ol {
+        padding-left: 0;
+        list-style-type: none;
+      }
+  
+      @media (max-width: 768px) {
+        .j {
+          margin-left: auto;
+          margin-right: auto;
+          gap: 15px;
+        }
+  
+        .j div {
+          width: 100%;
+          max-width: 400px;
+        }
+      }
+    </style>
+  </div>
+  <br><br>
+
+  <section class="about" style="margin-left: auto; margin-right: auto;">
+    <div class="about-container" style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px; justify-content: center;">
+      <div class="profile-image" style="flex: 1 1 200px; text-align: center;">
+        <img src="./caan/IMG-20241031-WA0011.jpg" alt="Profile Picture" style="max-width: 100%; height: auto; border-radius: 10px;">
+      </div>
+      <div class="content" style="flex: 2 1 300px;">
+        <h2>About <span>Me</span></h2>
+        <h1>Frontend <span>Developer</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eum officia alias esse qui<br>molestiae necessitatibus nesciunt Lorem ipsum dolor<br>sit amet consectetur adipisicing elit. Fugiat architecto officia<br>incidunt nisi aut quidem velit natus iste sit nobis, iusto<br>similique modi cum in nostrum autem quaerat tenetur culpa!</p>
+        <button style="padding: 10px 20px; border-radius: 5px; border: none; background-color: orange; color: white; cursor: pointer;">Experience</button>
+      </div>
+    </div>
+  
+    <style>
+      .about {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+  
+      .about-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+  
+      .profile-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+  
+      .content {
+        flex: 1;
+        text-align: left;
+      }
+  
+      .content h2 span, .content h1 span {
+        color: orange;
+      }
+  
+      @media (max-width: 768px) {
+        .about-container {
+          flex-direction: column;
+          text-align: center;
+        }
+  
+        .content {
+          text-align: center;
+        }
+  
+        .content button {
+          margin-top: 20px;
+        }
+      }
+    </style>
+  </section>
+  <br>
+  <br>
+  <br>
+  
+  <footer style="height: 200px; margin-top: 40px; color: orange; text-align: center; padding: 20px; background-color: #f9f9f9;">
+    Copyright &copy; 2025 Igalison
+    <br><br>
+  </footer>
+  
+
+
+
+  <script>
+    function toggleMenu() {
+      const navMenu = document.getElementById('nav-menu');
+      navMenu.classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
