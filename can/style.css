@@ -1,0 +1,209 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: orange;
+  }
+  
+  .contact-btn {
+    background: orange;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Introduction Section */
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+ 
+  
+  
+  
+  .text p {
+    margin: 1rem 0;
+  }
+  
+  .buttons {
+    margin-top: 1.5rem;
+    color: white;
+  }
+  
+  .btn {
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+  
+  .btn.primary {
+    background: black;
+    color: white;
+  }
+  
+  .btn.secondary {
+    background: orange;
+    color: white;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid orange;
+  }
+  footer{
+    background-color:rgb(94, 92, 92);
+   color: white;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+  }
+  /* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+  }
+  
+
+  header h1 span {
+    color: orange;
+  }
+  header button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .profile-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid orange;
+  }
+  
+  .content h2 span,
+  .content h1 span {
+    color: orange;
+  }
+  
+  .content h1 {
+    font-size: 50px;
+    margin: 20px 0;
+  }
+  
+  .content button {
+    background-color: orange;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+ 
